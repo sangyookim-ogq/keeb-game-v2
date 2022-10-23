@@ -24,5 +24,6 @@
   position: relative;
   margin-left: -8px;
   margin-right: -8px;
+  padding: 0 8px;
 }
 </style>
