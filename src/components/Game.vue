@@ -11,13 +11,15 @@
 <style lang="scss" scoped>
 .game-outer {
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .game {
   position: relative;
   width: 100%;
   max-width: 740px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .game-inner {

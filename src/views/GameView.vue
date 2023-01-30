@@ -199,6 +199,10 @@ export default {
 </script>
 
 <style scoped>
+main {
+  width: 100%;
+  height: 100%;
+}
 .debug {
   position: fixed;
   bottom: 0;
@@ -206,9 +210,9 @@ export default {
 }
 
 .game-inputter {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  opacity: 0;
+  /* opacity: 0; */
 }
 </style>

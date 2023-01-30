@@ -52,9 +52,11 @@ export default {
 .letter {
   position: relative;
   display: inline-block;
+  color: #999;
 }
 .letter-correct {
   font-weight: 500;
+  color: white;
 }
 .letter-incorrect {
   color: #FF0000;
