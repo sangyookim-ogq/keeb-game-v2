@@ -64,7 +64,7 @@
 
 <script>
 import PhraseGen from 'korean-random-words';
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
 import Game from '@/components/Game.vue'
 import Caret from '@/components/Caret.vue'
@@ -88,6 +88,7 @@ export default {
     const isComposing = ref(false)
     const isInputFocused = ref(false)
     const lengthBeforeComposition = ref(0)
+
     return {
       words,
       userWords,
@@ -112,8 +113,6 @@ export default {
     },
     currentInput(n) {
       this.userWords.splice(this.currentWordIndex, 1, n)
-    
-      
     }
   },
   methods: {

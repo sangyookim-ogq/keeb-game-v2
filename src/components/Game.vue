@@ -20,6 +20,7 @@
   width: 100%;
   max-width: 740px;
   margin: auto;
+  user-select: none;
 }
 
 .game-inner {

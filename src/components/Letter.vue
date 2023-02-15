@@ -52,22 +52,24 @@ export default {
 .letter {
   position: relative;
   display: inline-block;
-  color: #999;
+  color: #949494;
 }
 .letter-correct {
   font-weight: 500;
-  color: white;
+  color: #2A2A2A;
 }
 .letter-incorrect {
-  color: #FF0000;
+  color: #DE212D;
 }
 .letter-composing:after {
   position: absolute;
   content: "";
+  top: 100%;
   bottom: 0;
   left: 0;
   right: 0;
   height: 2px;
-  background-color: black;
+  margin-top: -2px;
+  background-color: #949494;
 }
 </style>
